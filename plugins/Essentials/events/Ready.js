@@ -63,7 +63,7 @@ module.exports = class extends Event {
 
   async createQueueEmbed(channel, queue) {
     const queueEmbed = new DefaultEmbed()
-      .setTitle('Burger TMS Queue')
+      .setTitle('Matchmaking Queue')
       .setDescription('Join the queue!')
       .addFields({ name: 'Queue', value: this.formatQueueInfo(queue) });
   
