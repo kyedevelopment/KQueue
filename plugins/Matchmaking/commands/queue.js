@@ -140,7 +140,7 @@ module.exports = class extends Command {
     }
 
     const queueEmbed = new DefaultEmbed()
-      .setTitle('Burger TMS Queue')
+      .setTitle('Matchmaking Queue')
       .setDescription('Join the queue!')
       .addFields({ name: 'Queue', value: '0/10' });
 
